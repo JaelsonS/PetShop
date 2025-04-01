@@ -1,0 +1,303 @@
+/* 
+ * CSS GLOBAL 
+ * Estilos que serão aplicados em todo o site 
+ */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Faz com que padding e border não aumentem o tamanho do elemento */
+    font-family: 'Roboto', sans-serif; /* Define a fonte padrão */
+    text-decoration: none; /* Remove sublinhado de links */
+}
+
+/* 
+ * CONTAINER PRINCIPAL 
+ * Define o padding padrão para todas as seções 
+ */
+.container {
+    padding: 5rem 2rem; /* 5rem no topo/baixo e 2rem nas laterais (responsivo) */
+    max-width: 1200px; /* Largura máxima do conteúdo */
+    margin: 0 auto; /* Centraliza o container */
+}
+
+/* 
+ * DESTAQUE 
+ * Estilo para textos que precisam se destacar 
+ */
+.destaque {
+    font-weight: 700; /* Texto em negrito */
+    font-style: italic; /* Texto em itálico */
+    color: #5a2d82; /* Cor roxa para destaque */
+}
+
+/* 
+ * TÍTULOS 
+ * Estilo para todos os títulos h2 
+ */
+h2 {
+    font-size: 2.25rem; 
+    color: #3c184e;
+    text-align: center; 
+    margin-bottom: 2.5rem; 
+}
+
+.cabecalho {
+    background-image: url("img/banner-topo.jpg");
+    background-position: center;
+    background-size: cover; /* Faz a imagem cobrir todo o espaço */
+    background-repeat: no-repeat;
+    min-height: 100vh; /* Altura mínima da viewport */
+    display: flex;
+    align-items: center;
+}
+
+.container-nome-logo {
+    max-width: 250px;
+    color: #3c184e;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco semi-transparente */
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.container-nome-logo img {
+    width: 2rem; /* 32px */
+    margin-right: 0.5rem; /* 8px */
+    vertical-align: middle; /* Alinha a imagem com o texto */
+}
+
+.nome-pet-shop {
+    font-size: 1.75rem; /* 28px */
+    margin: 0 0 0.5rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.slogan-pet-shop {
+    font-size: 0.875rem; /* 14px */
+    text-align: center;
+    margin: 0;
+}
+
+.container-titulo-topo {
+    max-width: 1024px;
+    border-radius: 10px;
+    padding: 2.5rem; /* 40px */
+    margin: 4rem auto 0; /* 64px no topo */
+    background: rgba(255, 255, 255, 0.77); /* Branco semi-transparente */
+    backdrop-filter: blur(5px); /* Efeito de desfoque */
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37); /* Sombra suave */
+}
+
+.titulo-topo {
+    font-size: 3rem;
+    color: #3c184e;
+    text-align: center;
+    font-weight: 800; 
+    margin: 0 0 2.5rem; /* 0 em cima/baixo, 40px abaixo */
+    line-height: 1.2;
+}
+
+.link-fale-conosco {
+    text-align: center;
+    width: 12.5rem; /* 200px */
+    padding: 0.625rem 1.5rem; /* 10px 24px */
+    font-size: 1.25rem; /* 20px */
+    background-color: #3c184e;
+    border-radius: 10px;
+    margin: 0 auto;
+    transition: all 0.3s ease; /* Suaviza transições */
+}
+
+.link-fale-conosco:hover {
+    transform: translateY(-3px); /* Efeito de levantar */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Sombra maior no hover */
+}
+
+.link-fale-conosco a {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem; /* Espaço entre texto e ícone */
+}
+
+.link-fale-conosco img {
+    width: 1.25rem; /* 20px */
+    filter: brightness(0) invert(1); /* Torna o ícone branco */
+}
+
+.box-servicos {
+    max-width: 800px;
+    color: #3c184e;
+    margin: 0 auto 3rem; /* 0 em cima/baixo, 48px abaixo */
+}
+
+.box-servicos li {
+    font-size: 1.125rem; /* 18px */
+    margin: 0 0 1.25rem; /* 0 em cima/baixo, 20px abaixo */
+    line-height: 1.6;
+}
+
+.box-servicos-img {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Layout responsivo */
+    gap: 1rem; /* Espaço entre as imagens */
+    justify-items: center; /* Centraliza os itens */
+}
+
+.box-servicos-img img {
+    max-width: 100%; /* Garante que não ultrapasse o container */
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 3px 6px 10px 6px rgba(0, 0, 0, 0.36);
+    transition: transform 0.3s ease; /* Suaviza o efeito de zoom */
+}
+
+.box-servicos-img img:hover {
+    transform: scale(1.05); /* Efeito de zoom no hover */
+}
+
+.faixa {
+    background-color: #3c184e;
+    text-align: center;
+    padding: 4rem 2rem !important; /* Sobrescreve o padding do container */
+}
+
+.text-faixa {
+    max-width: 800px;
+    margin: 0 auto 3rem; /* 0 em cima/baixo, 48px abaixo */
+    color: #fff;
+    font-size: 2rem; /* 32px */
+    line-height: 1.4;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Permite quebra de linha */
+    gap: 1.5rem; /* Espaço entre ícones */
+}
+
+.redes-sociais a {
+    transition: transform 0.3s ease;
+}
+
+.redes-sociais a:hover {
+    transform: translateY(-5px) scale(1.1); /* Efeito de levantar e aumentar */
+}
+
+.redes-sociais img {
+    width: 3rem; /* 48px */
+    height: 3rem; /* 48px */
+    filter: brightness(0) invert(1); /* Torna os ícones brancos */
+}
+
+.container-marcas {
+    max-width: 800px;
+    margin: 0 auto 2rem; /* 0 em cima/baixo, 32px abaixo */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Layout responsivo */
+    gap: 1rem; /* Espaço entre logos */
+    justify-items: center; /* Centraliza os itens */
+    align-items: center;
+}
+
+.logo-marca {
+    max-width: 100%; 
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.logo-marca:hover {
+    transform: scale(1.1); 
+}
+
+.onde-estamos {
+    text-align: center;
+}
+
+.onde-estamos p {
+    color: #3c184e;
+    font-size: 1.25rem; /* 20px */
+    margin: 0 0 3rem; /* 0 em cima/baixo, 48px abaixo */
+}
+
+.onde-estamos iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/*  RODAPÉ */
+.rodape {
+    background-color: #3c184e;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.text-rodape {
+    color: #fff;
+    font-size: 0.875rem; /* 14px */
+}
+
+@media (max-width: 768px) {
+  
+    .container {
+        padding: 3rem 1.5rem;
+    }
+    
+    .titulo-topo {
+        font-size: 2rem; /* 32px */
+    }
+    
+    .box-servicos-img {
+        grid-template-columns: repeat(2, 1fr); /* 2 colunas */
+    }
+   
+    .text-faixa {
+        font-size: 1.5rem; /* 24px */
+    }
+    
+    .redes-sociais img {
+        width: 2.5rem; /* 40px */
+        height: 2.5rem; /* 40px */
+    }
+}
+
+@media (max-width: 480px) {
+    /* Ajustes para telas (celulares)*/
+    .container-nome-logo {
+        max-width: 100%;
+    }
+    
+    .container-titulo-topo {
+        padding: 1.5rem;
+        margin-top: 2rem;
+    }
+    
+    .titulo-topo {
+        font-size: 1.75rem; /* 28px */
+    }
+    
+    .link-fale-conosco {
+        width: auto;
+        padding: 0.5rem 1rem;
+    }
+   
+    .box-servicos-img {
+        grid-template-columns: 1fr;
+    }
+   
+    .text-faixa {
+        font-size: 1.25rem; /* 20px */
+    }
+    
+    .onde-estamos iframe {
+        height: 300px;
+    }
+}
