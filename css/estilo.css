@@ -126,7 +126,7 @@ h2 {
     max-width: 800px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Layout responsivo */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 1rem; 
     justify-items: center; 
 }
@@ -269,7 +269,7 @@ h2 {
     }
     
     .titulo-topo {
-        font-size: 1.75rem; /* 28px */
+        font-size: 1.75rem;
     }
     
     .link-fale-conosco {
@@ -282,7 +282,7 @@ h2 {
     }
    
     .text-faixa {
-        font-size: 1.25rem; /* 20px */
+        font-size: 1.25rem; 
     }
     
     .onde-estamos iframe {
