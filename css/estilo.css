@@ -28,9 +28,9 @@ h2 {
 .cabecalho {
     background-image: url("../img/banner-topo.jpg");
     background-position: center;
-    background-size: cover; /* Faz a imagem cobrir todo o espaço */
+    background-size: cover; 
     background-repeat: no-repeat;
-    min-height: 100vh; /* Altura mínima da viewport */
+    min-height: 100vh; 
     display: flex;
     align-items: center;
 }
@@ -38,26 +38,26 @@ h2 {
 .container-nome-logo {
     max-width: 250px;
     color: #3c184e;
-    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco semi-transparente */
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 1rem;
     border-radius: 10px;
 }
 
 .container-nome-logo img {
-    width: 2rem; /* 32px */
-    margin-right: 0.5rem; /* 8px */
-    vertical-align: middle; /* Alinha a imagem com o texto */
+    width: 2rem; 
+    margin-right: 0.5rem; 
+    vertical-align: middle; 
 }
 
 .nome-pet-shop {
-    font-size: 1.75rem; /* 28px */
+    font-size: 1.75rem; 
     margin: 0 0 0.5rem 0;
     display: flex;
     align-items: center;
 }
 
 .slogan-pet-shop {
-    font-size: 0.875rem; /* 14px */
+    font-size: 0.875rem; 
     text-align: center;
     margin: 0;
 }
@@ -65,11 +65,11 @@ h2 {
 .container-titulo-topo {
     max-width: 1024px;
     border-radius: 10px;
-    padding: 2.5rem; /* 40px */
-    margin: 4rem auto 0; /* 64px no topo */
-    background: rgba(255, 255, 255, 0.77); /* Branco semi-transparente */
-    backdrop-filter: blur(5px); /* Efeito de desfoque */
-    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37); /* Sombra suave */
+    padding: 2.5rem; 
+    margin: 4rem auto 0; 
+    background: rgba(255, 255, 255, 0.77); 
+    backdrop-filter: blur(5px); 
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37); 
 }
 
 .titulo-topo {
@@ -77,24 +77,24 @@ h2 {
     color: #3c184e;
     text-align: center;
     font-weight: 800; 
-    margin: 0 0 2.5rem; /* 0 em cima/baixo, 40px abaixo */
+    margin: 0 0 2.5rem; 
     line-height: 1.2;
 }
 
 .link-fale-conosco {
     text-align: center;
-    width: 12.5rem; /* 200px */
-    padding: 0.625rem 1.5rem; /* 10px 24px */
-    font-size: 1.25rem; /* 20px */
+    width: 12.5rem; 
+    padding: 0.625rem 1.5rem; 
+    font-size: 1.25rem; 
     background-color: #3c184e;
     border-radius: 10px;
     margin: 0 auto;
-    transition: all 0.3s ease; /* Suaviza transições */
+    transition: all 0.3s ease; 
 }
 
 .link-fale-conosco:hover {
-    transform: translateY(-3px); /* Efeito de levantar */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Sombra maior no hover */
+    transform: translateY(-3px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .link-fale-conosco a {
@@ -102,23 +102,23 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0.5rem; /* Espaço entre texto e ícone */
+    gap: 0.5rem; 
 }
 
 .link-fale-conosco img {
-    width: 1.25rem; /* 20px */
-    filter: brightness(0) invert(1); /* Torna o ícone branco */
+    width: 1.25rem; 
+    filter: brightness(0) invert(1); 
 }
 
 .box-servicos {
     max-width: 800px;
     color: #3c184e;
-    margin: 0 auto 3rem; /* 0 em cima/baixo, 48px abaixo */
+    margin: 0 auto 3rem;
 }
 
 .box-servicos li {
-    font-size: 1.125rem; /* 18px */
-    margin: 0 0 1.25rem; /* 0 em cima/baixo, 20px abaixo */
+    font-size: 1.125rem;
+    margin: 0 0 1.25rem;
     line-height: 1.6;
 }
 
@@ -127,33 +127,33 @@ h2 {
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Layout responsivo */
-    gap: 1rem; /* Espaço entre as imagens */
-    justify-items: center; /* Centraliza os itens */
+    gap: 1rem; 
+    justify-items: center; 
 }
 
 .box-servicos-img img {
-    max-width: 100%; /* Garante que não ultrapasse o container */
+    max-width: 100%;
     height: auto;
     border-radius: 5px;
     box-shadow: 3px 6px 10px 6px rgba(0, 0, 0, 0.36);
-    transition: transform 0.3s ease; /* Suaviza o efeito de zoom */
+    transition: transform 0.3s ease; 
 }
 
 .box-servicos-img img:hover {
-    transform: scale(1.05); /* Efeito de zoom no hover */
+    transform: scale(1.05); 
 }
 
 .faixa {
     background-color: #3c184e;
     text-align: center;
-    padding: 4rem 2rem !important; /* Sobrescreve o padding do container */
+    padding: 4rem 2rem !important; 
 }
 
 .text-faixa {
     max-width: 800px;
-    margin: 0 auto 3rem; /* 0 em cima/baixo, 48px abaixo */
+    margin: 0 auto 3rem; 
     color: #fff;
-    font-size: 2rem; /* 32px */
+    font-size: 2rem; 
     line-height: 1.4;
 }
 .destaque {
@@ -166,8 +166,8 @@ h2 {
 .redes-sociais {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; /* Permite quebra de linha */
-    gap: 1.5rem; /* Espaço entre ícones */
+    flex-wrap: wrap; 
+    gap: 1.5rem; 
 }
 
 .redes-sociais a {
@@ -175,22 +175,22 @@ h2 {
 }
 
 .redes-sociais a:hover {
-    transform: translateY(-5px) scale(1.1); /* Efeito de levantar e aumentar */
+    transform: translateY(-5px) scale(1.1); 
 }
 
 .redes-sociais img {
-    width: 3rem; /* 48px */
-    height: 3rem; /* 48px */
-    filter: brightness(0) invert(1); /* Torna os ícones brancos */
+    width: 3rem; 
+    height: 3rem;
+    filter: brightness(0) invert(1); 
 }
 
 .container-marcas {
     max-width: 800px;
-    margin: 0 auto 2rem; /* 0 em cima/baixo, 32px abaixo */
+    margin: 0 auto 2rem; 
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Layout responsivo */
-    gap: 1rem; /* Espaço entre logos */
-    justify-items: center; /* Centraliza os itens */
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); 
+    gap: 1rem; 
+    justify-items: center; 
     align-items: center;
 }
 
@@ -210,8 +210,8 @@ h2 {
 
 .onde-estamos p {
     color: #3c184e;
-    font-size: 1.25rem; /* 20px */
-    margin: 0 0 3rem; /* 0 em cima/baixo, 48px abaixo */
+    font-size: 1.25rem;
+    margin: 0 0 3rem;
 }
 
 .onde-estamos iframe {
@@ -223,7 +223,6 @@ h2 {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-/*  RODAPÉ */
 .rodape {
     background-color: #3c184e;
     padding: 1rem 0;
@@ -232,7 +231,7 @@ h2 {
 
 .text-rodape {
     color: #fff;
-    font-size: 0.875rem; /* 14px */
+    font-size: 0.875rem;
 }
 
 @media (max-width: 768px) {
@@ -242,25 +241,24 @@ h2 {
     }
     
     .titulo-topo {
-        font-size: 2rem; /* 32px */
+        font-size: 2rem;
     }
     
     .box-servicos-img {
-        grid-template-columns: repeat(2, 1fr); /* 2 colunas */
+        grid-template-columns: repeat(2, 1fr); 
     }
    
     .text-faixa {
-        font-size: 1.5rem; /* 24px */
+        font-size: 1.5rem; 
     }
     
     .redes-sociais img {
-        width: 2.5rem; /* 40px */
-        height: 2.5rem; /* 40px */
+        width: 2.5rem; 
+        height: 2.5rem;
     }
 }
 
 @media (max-width: 480px) {
-    /* Ajustes para telas (celulares)*/
     .container-nome-logo {
         max-width: 100%;
     }
